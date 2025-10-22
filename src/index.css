@@ -2,22 +2,29 @@
 
 @import "tailwindcss";
 @plugin "daisyui"{
-   themes: "synthwave" --default;
 }
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #403F3F;
-  --color-secondary: #D72050;
-  --color-accent: #706f6f;
-  --color-base-200: #F3F3F3;
-  --color-base-300: #E7E7E7;
+  --color-primary: orange;
+  --color-secondary: oklch(24.27% .057 59.825);
+  --color-accent: oklch(16.076% .004 285.822);
+  --color-base-100: oklch(14.27% .057 59.825); 
+  --color-base-200: #f7b55f;
+  --color-base-300: oklch(14.076% .004 285.822);
 }
 
 *{
   font-family: "Poppins", sans-serif;
+  color:rgb(247, 181, 96)
 }
 
 a.active {
-  @apply bg-secondary text-white rounded-lg;
+  @apply bg-secondary text-[#f7b55f]
+ rounded-lg;
 }
+
+//--color-base-100 (outlet bg)
+//--color-base-300 (header,footer bg)
+//--color-base-200 (popular games border)
+/--color-secondary (home, allgames about store bg)

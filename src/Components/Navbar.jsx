@@ -18,7 +18,7 @@ const Navbar = () => {
       });
   };
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-300 shadow-sm">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -40,7 +40,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
               <NavLink>Home</NavLink>
@@ -57,11 +57,11 @@ const Navbar = () => {
       </div>
       <div className="navbar-end flex items-center gap-4">
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
+          <ul className="menu menu-horizontal ">
+             <li className="pr-5">
               <NavLink>Home</NavLink>
             </li>
-            <li>
+            <li className="pr-5">
               <NavLink>All Games</NavLink>
             </li>
             <li>
@@ -93,13 +93,17 @@ const Navbar = () => {
             </ul>
           </div>
         ) : (
-          <div>
-            <Link to="/signin" className="btn">
+          <div className="flex gap-4">
+            <li className="list-none">
+              <Link to="/signin" className="btn">
               Sign In
             </Link>
-            <Link to="/signup" className="btn">
+            </li>
+            <li className="list-none">
+              <Link to="/signup" className="btn pl-4">
               Sign Up
             </Link>
+            </li>
           </div>
         )}
       </div>

@@ -11,7 +11,7 @@ const HomeLayout = () => {
       </header>
 
       {/* Grow to take available space */}
-      <main className="flex-grow">
+      <main className="flex-grow md:px-8">
         <Outlet />
       </main>
         <footer>
