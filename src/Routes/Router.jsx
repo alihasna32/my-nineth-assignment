@@ -17,7 +17,14 @@ const router = createBrowserRouter([
         path: "/signup",
         element: <SignUp></SignUp>,
       },
-      
+      {
+        path: "/*",
+        element: (
+          <div className="flex justify-center items-center min-h-screen">
+            <img className="w-[400px]" src={error404} alt="404 Not Found" />
+          </div>
+        ),
+      },
     ],
   },
 ]);
