@@ -8,6 +8,7 @@ const AllGames = () => {
   const selectedId = location.state?.selectedId;
   return (
     <div className="my-10 px-4">
+    <title>All Games</title>
       <div className="tabs tabs-lifted">
         {/* Tab 1 */}
         <input

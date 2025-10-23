@@ -79,7 +79,7 @@ const GamesDetails = () => {
           state={{ selectedId: game.id }}
           className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer"
         >
-          <BiLeftArrow className="bg-red-500 rounded-2xl" />
+          <BiLeftArrow className="bg-red-500 rounded-2xl p-0.5" />
           BACK
         </Link>
 

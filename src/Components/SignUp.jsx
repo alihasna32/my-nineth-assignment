@@ -1,11 +1,11 @@
 import React, { use, useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Contexts/AuthContext";
 const SignUp = () => {
   const { signupWithEmailAndPass, updateUser, setUser } = use(AuthContext);
 
   const navigate = useNavigate()
-
+  const location = useLocation()
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
   const [nameError, setNameError] = useState("");
@@ -46,12 +46,12 @@ const SignUp = () => {
         updateUser(name, photo)
         .then(() => {
           setUser({...user, displayName:name, photoURl: photo})
-          navigate("/")
         })
         .catch((error) => {
           console.log(error) 
           setUser(user)
         })
+        navigate(`${location.state ? location.state : "/"}`);
         event.target.reset();
       })
       .catch((err) => {
@@ -62,6 +62,7 @@ const SignUp = () => {
 
   return (
     <div className="hero bg-base-100 min-h-screen">
+    <title>Sign up</title>
       <div className="hero-content flex-col w-full">
         <div className="text-center lg:text-left mb-4">
           <h1 className="text-4xl font-bold">Register your account!</h1>
@@ -112,7 +113,7 @@ const SignUp = () => {
                   required
                 />
 
-                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 w-full shadow-sm shadow-amber-900">
+                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 max-w-[320px] shadow-sm shadow-amber-900 cursor-pointer">
                   Register
                 </button>
 

@@ -45,6 +45,7 @@ const SignIn = () => {
     signInWithGoogle(provider)
       .then(() => {
         toast("Sign in successfully with google", {position: "top-center",autoClose: 1000, });
+        navigate(`${location.state ? location.state : "/"}`);
       })
       .catch((error) => {
         toast.error(error.message);
@@ -53,6 +54,7 @@ const SignIn = () => {
 
   return (
     <div className="hero bg-base-100 min-h-screen">
+    <title>Sign In</title>
       <div className="hero-content flex-col w-full">
         <div className="text-center lg:text-left mb-4">
           <h1 className="text-4xl font-bold">Login your account!</h1>
@@ -80,7 +82,7 @@ const SignIn = () => {
                   required
                 />
 
-                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 w-full shadow-sm shadow-amber-900">
+                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 max-w-[320px] shadow-sm shadow-amber-900 cursor-pointer">
                   Login
                 </button>
                 <button

@@ -25,10 +25,10 @@ const Navbar = () => {
       });
   };
   return (
-    <div className="navbar bg-base-300 shadow-sm">
+    <div className="navbar bg-base-300 shadow-sm px-10">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="cursor-pointer mr-7  lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <Link to="/" className="text-xl"><img className="w-16" src="/Logo.png" alt=""/></Link>
       </div>
       <div className="navbar-end flex items-center gap-4">
         <div className="hidden lg:flex">
@@ -78,10 +78,11 @@ const Navbar = () => {
         </div>
 
         {user ? (
-          <div className="dropdown  dropdown-bottom dropdown-end">
+          <div className="dropdown  dropdown-bottom dropdown-end ">
+          <title>Profile</title>
             <img
               tabIndex={0}
-              className="w-12 h-12 rounded-full"
+              className="w-12 h-12 rounded-full cursor-pointer"
               src={user.photoURL}
               alt="Profile"
             />
