@@ -2,7 +2,6 @@ import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react'
 import React, { useRef } from 'react'
 
 const BannerCard = ({data}) => {
-  console.log(data)
     const scrollRef = useRef(null)
 
     const scrollLeft = () => {
@@ -44,13 +43,13 @@ const BannerCard = ({data}) => {
       <div className="flex justify-center space-x-6 ">
           <button
             onClick={scrollLeft}
-            className="p-3 max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 transition shadow-md"
+            className="p-3 max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md"
           >
             <ChevronLeftIcon size={24} />
           </button>
           <button
             onClick={scrollRight}
-            className="p-3  max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 transition shadow-md text-base-300"
+            className="p-3  max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md text-base-300"
           >
             <ChevronRightIcon size={24} />
           </button>

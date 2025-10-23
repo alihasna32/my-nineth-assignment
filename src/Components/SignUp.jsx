@@ -61,13 +61,13 @@ const SignUp = () => {
   };
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-100 min-h-screen">
       <div className="hero-content flex-col w-full">
         <div className="text-center lg:text-left mb-4">
           <h1 className="text-4xl font-bold">Register your account!</h1>
         </div>
 
-        <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
+        <div className="card bg-base-300 w-full max-w-sm shadow-2xl">
           <div className="card-body">
             <form onSubmit={handleRegister}>
               <fieldset className="fieldset">
@@ -112,13 +112,13 @@ const SignUp = () => {
                   required
                 />
 
-                <button type="submit" className="btn btn-neutral mt-4 w-full">
+                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 w-full shadow-sm shadow-amber-900">
                   Register
                 </button>
 
                 <p className="text-center mt-3">
                   Already have an account?{" "}
-                  <Link className="text-blue-500" to="/signin">
+                  <Link className="font-bold" to="/signin">
                     Log in
                   </Link>
                 </p>

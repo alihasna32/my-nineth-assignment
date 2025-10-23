@@ -7,6 +7,9 @@ import BannerCard from "../Components/BannerCard";
 import Loading from "../Components/Loading";
 import PopularGame from "../Components/PopularGame";
 import HomePage from "../Pages/HomePage";
+import AllGames from "../Pages/AllGames";
+import AboutStore from "../Pages/AboutStore";
+import GamesDetails from "../Components/GamesDetails";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +29,27 @@ const router = createBrowserRouter([
         element: <HomePage />,
         loader: () => fetch("/Games.json"),
         hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/allgames",
+        element: <AllGames></AllGames>,
+        loader: () => fetch("/Games.json"),
+        hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/allgames/:id",
+        element: <AllGames></AllGames>,
+        loader: () => fetch("/Games.json"),
+      },
+      {
+          path: "/gamesdetails/:id",
+          element: <GamesDetails></GamesDetails>,
+          loader: () => fetch("/Games.json"),
+        hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/aboutstore",
+        element: <AboutStore></AboutStore>
       },
       {
         path: "/*",

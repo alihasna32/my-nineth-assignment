@@ -3,8 +3,15 @@ import { Link, NavLink } from "react-router";
 import { AuthContext } from "../Contexts/AuthContext";
 import { Bounce, toast, ToastContainer } from "react-toastify";
 const Navbar = () => {
-  const { user, signOutUser } = use(AuthContext);
+  const { user, signOutUser, loading } = use(AuthContext);
 
+  if (loading) {
+    return (
+      <div className="flex justify-end h-screen items-start p-4">
+        <span className="loading loading-spinner loading-xl"></span>
+      </div>
+    );
+  }
   const handleLogOut = () => {
     signOutUser()
       .then(() => {
@@ -40,16 +47,16 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content  rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content gap-4 bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <NavLink>Home</NavLink>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink>All Games</NavLink>
+              <NavLink to="/allgames">All Games</NavLink>
             </li>
             <li>
-              <NavLink>About Store</NavLink>
+              <NavLink to="/aboutstore">About Store</NavLink>
             </li>
           </ul>
         </div>
@@ -58,20 +65,20 @@ const Navbar = () => {
       <div className="navbar-end flex items-center gap-4">
         <div className="hidden lg:flex">
           <ul className="menu menu-horizontal ">
-             <li className="pr-5">
-              <NavLink>Home</NavLink>
-            </li>
-            <li className="pr-5">
-              <NavLink>All Games</NavLink>
+            <li>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink>About Store</NavLink>
+              <NavLink to="/allgames">All Games</NavLink>
+            </li>
+            <li>
+              <NavLink to="/aboutstore">About Store</NavLink>
             </li>
           </ul>
         </div>
 
         {user ? (
-          <div className="dropdown dropdown-bottom dropdown-end">
+          <div className="dropdown  dropdown-bottom dropdown-end">
             <img
               tabIndex={0}
               className="w-12 h-12 rounded-full"
@@ -80,13 +87,16 @@ const Navbar = () => {
             />
             <ul
               tabIndex="-1"
-              className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
+              className="dropdown-content menu bg-base-300 rounded-box z-1 w-52 p-2 shadow-sm"
             >
               <li>
-                <a>{user.displayName}</a>
+                <a>Name: {user.displayName}</a>
               </li>
               <li>
-                <button onClick={handleLogOut} className="btn btn-primary">
+                <button
+                  onClick={handleLogOut}
+                  className="border bg-base-100 p-1.5 rounded-xl font-semibold flex justify-center"
+                >
                   Logout
                 </button>
               </li>
@@ -95,14 +105,20 @@ const Navbar = () => {
         ) : (
           <div className="flex gap-4">
             <li className="list-none">
-              <Link to="/signin" className="btn">
-              Sign In
-            </Link>
+              <Link
+                to="/signin"
+                className="border bg-base-100 p-1.5 rounded-xl font-semibold"
+              >
+                Sign In
+              </Link>
             </li>
             <li className="list-none">
-              <Link to="/signup" className="btn pl-4">
-              Sign Up
-            </Link>
+              <Link
+                to="/signup"
+                className="border bg-base-100 p-1.5 rounded-xl font-semibold"
+              >
+                Sign Up
+              </Link>
             </li>
           </div>
         )}

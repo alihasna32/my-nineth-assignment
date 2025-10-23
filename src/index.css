@@ -23,7 +23,6 @@ a.active {
   @apply bg-secondary text-[#f7b55f]
  rounded-lg;
 }
-
 //--color-base-100 (outlet bg)
 //--color-base-300 (header,footer bg)
 //--color-base-200 (popular games border)

@@ -1,10 +1,9 @@
 import React, { use, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
-import { Bounce, toast, ToastContainer } from "react-toastify";
+import {toast} from "react-toastify";
 import { AuthContext } from "../Contexts/AuthContext";
 import { GrGoogle } from "react-icons/gr";
 import { GoogleAuthProvider } from "firebase/auth";
-
 const SignIn = () => {
   const { signinWithAndPass, signInWithGoogle } = use(AuthContext);
 
@@ -45,7 +44,7 @@ const SignIn = () => {
 
     signInWithGoogle(provider)
       .then(() => {
-        toast.success("Sign in successfully with google");
+        toast("Sign in successfully with google", {position: "top-center",autoClose: 1000, });
       })
       .catch((error) => {
         toast.error(error.message);
@@ -53,13 +52,13 @@ const SignIn = () => {
   };
 
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero bg-base-100 min-h-screen">
       <div className="hero-content flex-col w-full">
         <div className="text-center lg:text-left mb-4">
           <h1 className="text-4xl font-bold">Login your account!</h1>
         </div>
 
-        <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
+        <div className="card bg-base-300 w-full max-w-sm shadow-2xl">
           <div className="card-body">
             <form onSubmit={handleLogin}>
               <fieldset className="fieldset">
@@ -81,20 +80,20 @@ const SignIn = () => {
                   required
                 />
 
-                <button type="submit" className="btn btn-neutral mt-4 w-full">
+                <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 w-full shadow-sm shadow-amber-900">
                   Login
                 </button>
                 <button
                   onClick={handleGoogleSignIn}
-                  className="btn bg-white text-black border-[#e5e5e5]"
+                  className="btn mt-4 bg-white text-black border-[#e5e5e5]"
                 >
-                  <GrGoogle></GrGoogle>
+                  <GrGoogle />
                   Login with Google
                 </button>
 
                 <p className="text-center mt-3">
                   Already have an account?{" "}
-                  <Link className="text-blue-500" to="/signup">
+                  <Link className="font-bold" to="/signup">
                     Register
                   </Link>
                 </p>

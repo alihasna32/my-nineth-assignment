@@ -1,8 +1,11 @@
 import { Star } from "lucide-react";
 import React from "react";
-import { Link } from "react-router";
+import { Link, useLoaderData, useLocation } from "react-router";
 
-const PopularGame = ({ data }) => {
+const AllGames = () => {
+  const data = useLoaderData();
+  const location = useLocation();
+  const selectedId = location.state?.selectedId;
   return (
     <div className="my-10 px-4">
       <div className="tabs tabs-lifted">
@@ -12,7 +15,7 @@ const PopularGame = ({ data }) => {
           name="my_tabs_3"
           role="tab"
           className="tab bg-accent rounded-t-xl"
-          aria-label="Popular Games"
+          aria-label="All Games"
           defaultChecked
         />
         <div
@@ -21,10 +24,17 @@ const PopularGame = ({ data }) => {
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
             {data && data.length > 0 ? (
-              data.slice(5, 14).map((game) => (
-                <Link to={`/gamesdetails/${game.id}`}
+              data.map((game) => (
+                <Link
+                  to={`/gamesdetails/${game.id}`}
                   key={game.id}
-                  className="group border border-gray-600 rounded-xl overflow-hidden shadow-md hover:scale-[1.03] transition-transform duration-300 bg-base-100"
+                  className={`group border rounded-xl overflow-hidden hover:scale-[1.03] transition-transform duration-300 bg-base-100
+                    ${
+                      selectedId === game.id
+                        ? "border-red-500 shadow-lg shadow-orange-500"
+                        : "border-gray-600"
+                    }
+                  `}
                 >
                   {/* Game Image */}
                   <div className="relative w-full h-48 sm:h-56 md:h-64 lg:h-52 xl:h-64">
@@ -60,17 +70,10 @@ const PopularGame = ({ data }) => {
               </p>
             )}
           </div>
-
-          {/* 🔽 See All Button */}
-          <div className="flex justify-center mt-8">
-            <Link to="/allgames" className="py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer">
-              See All
-            </Link>
-          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default PopularGame;
+export default AllGames;
