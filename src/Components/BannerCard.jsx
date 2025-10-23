@@ -25,7 +25,7 @@ const BannerCard = ({data}) => {
           {data?.slice(0,5).map((game) => (
             <div
               key={game.id}
-              className="flex-shrink-0 w-52 sm:w-80 md:w-[400px] lg:w-[300px] xl:w-[600px] h-[130px] sm:h-42 md:h-[200px] lg:h-[300px] relative cursor-pointer group transition-transform hover:scale-105 
+              className="shrink-0 w-52 sm:w-80 md:w-[400px] lg:w-[300px] xl:w-[600px] h-[130px] sm:h-42 md:h-[200px] lg:h-[300px] relative cursor-pointer group transition-transform hover:scale-105 
                "
             >
               <img
@@ -43,13 +43,13 @@ const BannerCard = ({data}) => {
       <div className="flex justify-center space-x-6 ">
           <button
             onClick={scrollLeft}
-            className="p-3 max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md"
+            className="p-3 max-lg:w-10 max-lg:h-10 bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md"
           >
             <ChevronLeftIcon size={24} />
           </button>
           <button
             onClick={scrollRight}
-            className="p-3  max-lg:w-[40px] max-lg:h-[40px] bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md text-base-300"
+            className="p-3  max-lg:w-10 max-lg:h-10 bg-white/30 rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md text-base-300"
           >
             <ChevronRightIcon size={24} />
           </button>

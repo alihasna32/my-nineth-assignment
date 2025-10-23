@@ -124,7 +124,6 @@ const SignUp = () => {
                 </p>
               </fieldset>
 
-              {/* ✅ Show messages */}
               {success && (
                 <p className="text-green-400 mt-3 text-center">
                   Successfully created! Please log in

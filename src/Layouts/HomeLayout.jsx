@@ -10,8 +10,7 @@ const HomeLayout = () => {
         <Navbar />
       </header>
 
-      {/* Grow to take available space */}
-      <main className="flex-grow md:px-8">
+      <main className="grow md:px-8">
         <Outlet />
       </main>
         <footer>

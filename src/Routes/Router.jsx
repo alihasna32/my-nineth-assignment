@@ -3,13 +3,12 @@ import HomeLayout from "../Layouts/HomeLayout";
 import SignIn from "../Components/SignIn";
 import SignUp from "../Components/SignUp";
 import error404 from "../assets/error-404.png";
-import BannerCard from "../Components/BannerCard";
 import Loading from "../Components/Loading";
-import PopularGame from "../Components/PopularGame";
 import HomePage from "../Pages/HomePage";
 import AllGames from "../Pages/AllGames";
 import AboutStore from "../Pages/AboutStore";
 import GamesDetails from "../Components/GamesDetails";
+import PrivateRoutes from "../Contexts/PrivateRoutes";
 
 const router = createBrowserRouter([
   {
@@ -43,7 +42,9 @@ const router = createBrowserRouter([
       },
       {
           path: "/gamesdetails/:id",
-          element: <GamesDetails></GamesDetails>,
+          element: <PrivateRoutes>
+            <GamesDetails></GamesDetails>
+          </PrivateRoutes>,
           loader: () => fetch("/Games.json"),
         hydrateFallbackElement: <Loading />,
       },
