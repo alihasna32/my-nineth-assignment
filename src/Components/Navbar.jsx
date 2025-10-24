@@ -1,9 +1,35 @@
-import React, { use } from "react";
+import React, { use, useState } from "react";
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../Contexts/AuthContext";
 import { toast } from "react-toastify";
+import { PenIcon } from "lucide-react";
 const Navbar = () => {
-  const { user, signOutUser, loading } = use(AuthContext);
+  const { user, signOutUser, loading, updateUser, setUser } = use(AuthContext);
+  const [isPhoto, setIsPhoto] = useState(false);
+  const [isName, setIsName] = useState(false);
+  const handleUpdate = (event) => {
+    event.preventDefault();
+    const name = event.target.name?.value;
+    const photo = event.target.photo?.value;
+    if (name && name.length <= 5) {
+      toast.error("Name must be at least 6 characters long");
+      return;
+    }
+    updateUser(name || user.displayName, photo || user.photoURL)
+      .then(() => {
+        setUser({
+          ...user,
+          displayName: name || user.displayName,
+          photoURL: photo || user.photoURL,
+        });
+        setIsName(false);
+        setIsPhoto(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        toast.error("Failed to update user info.");
+      });
+  };
 
   if (loading) {
     return (
@@ -28,7 +54,11 @@ const Navbar = () => {
     <div className="navbar bg-base-300 shadow-sm px-10">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="cursor-pointer mr-7  lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="cursor-pointer mr-7  lg:hidden"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -36,13 +66,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              {" "}
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
                 d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
+              />
             </svg>
           </div>
           <ul
@@ -60,7 +89,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="text-xl"><img className="w-16" src="/Logo.png" alt=""/></Link>
+        <Link to="/" className="text-xl">
+          <img className="w-16" src="/Logo.png" alt="" />
+        </Link>
       </div>
       <div className="navbar-end flex items-center gap-4">
         <div className="hidden lg:flex">
@@ -78,30 +109,67 @@ const Navbar = () => {
         </div>
 
         {user ? (
-          <div className="dropdown  dropdown-bottom dropdown-end ">
-          <title>Profile</title>
+          <div className="flex gap-5">
+            <title>Profile</title>
             <img
+              onClick={() => document.getElementById("my_modal_1").showModal()}
               tabIndex={0}
-              className="w-12 h-12 rounded-full cursor-pointer"
+              className="w-12 h-12 border rounded-full cursor-pointer"
               src={user.photoURL}
               alt="Profile"
             />
-            <ul
-              tabIndex="-1"
-              className="dropdown-content menu bg-base-300 rounded-box z-1 w-52 p-2 shadow-sm"
+            <dialog id="my_modal_1" className="modal">
+              <form className="modal-box" onSubmit={handleUpdate}>
+                <div className="">
+                  <div className="flex justify-center mt-6 relative">
+                    <img
+                      tabIndex={0}
+                      className="w-40 h-40 rounded-full object-cover border-4 border-accent shadow-md"
+                      src={user.photoURL}
+                      alt="Profile"
+                    />
+                    <PenIcon
+                      onClick={() => setIsPhoto(true)}
+                      className="absolute right-43 top-8 w-8 h-8 cursor-pointer fill-black hover:text-accent transition"
+                    />
+                    {isPhoto && (
+                      <input
+                        type="text"
+                        name="photo"
+                        className="input bg-base-300 mt-3 h-13"
+                        placeholder="Photo URL"
+                      />
+                    )}
+                  </div>
+
+                  <div className="flex justify-center items-center text-2xl mt-4 gap-3">
+                    <label htmlFor="name">Name:</label>
+                    <input
+                      type="text"
+                      name="name"
+                      defaultValue={user.displayName}
+                      className="input bg-base-300"
+                    />
+                  </div>
+
+                  <div className="modal-action flex justify-between">
+                    <button type="submit" className="w-screen border py-2 rounded-2xl px-14 bg-base-300">
+                      Update
+                    </button>
+                    
+                  </div>
+                </div>
+              </form>
+              <form method="dialog" className="modal-backdrop">
+    <button>close</button>
+  </form>
+            </dialog>
+            <button
+              onClick={handleLogOut}
+              className="border btn bg-base-100 rounded-xl font-semibold"
             >
-              <li>
-                <a>Name: {user.displayName}</a>
-              </li>
-              <li>
-                <button
-                  onClick={handleLogOut}
-                  className="border bg-base-100 p-1.5 rounded-xl font-semibold flex justify-center"
-                >
-                  Logout
-                </button>
-              </li>
-            </ul>
+              Logout
+            </button>
           </div>
         ) : (
           <div className="flex flex-col sm:flex-row gap-4">

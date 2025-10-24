@@ -16,7 +16,7 @@ const BannerCard = ({data}) => {
     }
   };
   return (
-    <div className="">
+    <div className="px-4">
         <div className="flex flex-col items-center justify-center grow lg:mb-10  ">
         <div
           ref={scrollRef}
@@ -43,13 +43,13 @@ const BannerCard = ({data}) => {
       <div className="flex justify-center space-x-6 ">
           <button
             onClick={scrollLeft}
-            className="p-3 max-lg:w-10 max-lg:h-10 bg-[#4b748d84] rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md"
+            className="p-3 max-lg:w-10 max-lg:h-10 bg-[#4b748d84] rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md border"
           >
             <ChevronLeftIcon size={24} />
           </button>
           <button
             onClick={scrollRight}
-            className="p-3  max-lg:w-10 max-lg:h-10 bg-[#4b748d84] rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md text-base-300"
+            className="p-3  max-lg:w-10 max-lg:h-10 bg-[#4b748d84] rounded-full hover:bg-gray-500 cursor-pointer transition shadow-md text-base-300 border"
           >
             <ChevronRightIcon size={24} />
           </button>
