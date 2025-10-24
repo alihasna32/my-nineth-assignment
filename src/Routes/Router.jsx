@@ -6,9 +6,9 @@ import error404 from "../assets/error-404.png";
 import Loading from "../Components/Loading";
 import HomePage from "../Pages/HomePage";
 import AllGames from "../Pages/AllGames";
-import AboutStore from "../Pages/AboutStore";
 import GamesDetails from "../Components/GamesDetails";
 import PrivateRoutes from "../Contexts/PrivateRoutes";
+import AboutgameHub from "../Pages/AboutGamehub";
 
 const router = createBrowserRouter([
   {
@@ -49,8 +49,8 @@ const router = createBrowserRouter([
         hydrateFallbackElement: <Loading />,
       },
       {
-        path: "/aboutstore",
-        element: <AboutStore></AboutStore>
+        path: "/aboutgameHub",
+        element: <AboutgameHub></AboutgameHub>
       },
       {
         path: "/*",

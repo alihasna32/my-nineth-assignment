@@ -56,7 +56,7 @@ const Navbar = () => {
               <NavLink to="/allgames">All Games</NavLink>
             </li>
             <li>
-              <NavLink to="/aboutstore">About Store</NavLink>
+              <NavLink to="/aboutgameHub">About GameHub</NavLink>
             </li>
           </ul>
         </div>
@@ -72,7 +72,7 @@ const Navbar = () => {
               <NavLink to="/allgames">All Games</NavLink>
             </li>
             <li>
-              <NavLink to="/aboutstore">About Store</NavLink>
+              <NavLink to="/aboutgameHub">About GameHub</NavLink>
             </li>
           </ul>
         </div>

@@ -72,7 +72,7 @@ const PopularGame = ({ data }) => {
 
           {/* See All Button */}
           <div className="flex justify-center mt-8">
-            <Link to="/allgames" className="py-1.5 text-2xl font-semibold bg-[#4b748d84] px-5 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer">
+            <Link to="/allgames" className="py-1.5 text-2xl font-semibold bg-linear-to-r from-[#7a590a] to-[#8166213b] px-5 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer">
               See All
             </Link>
           </div>
