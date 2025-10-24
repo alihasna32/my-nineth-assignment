@@ -1,8 +1,17 @@
 import { Star } from "lucide-react";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 
 const PopularGame = ({ data }) => {
+  const [sort, setSort] = useState([])
+  
+  useEffect(() => {
+    if(data && data.length > 0){
+      const sliced = data.slice(5, 14);
+      const sorted = sliced.sort((a,b) => b.ratings - a.ratings);
+      setSort(sorted)
+    }
+  }, [data])
   return (
     <div className="my-10 px-4">
       <div className="tabs tabs-lifted">
@@ -20,8 +29,8 @@ const PopularGame = ({ data }) => {
           className="tab-content bg-base-300 lg:px-6 py-4 rounded-md rounded-r-xl rounded-b-xl"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
-            {data && data.length > 0 ? (
-              data.slice(5, 14).map((game) => (
+            {sort && sort.length > 0 ? (
+              sort.map((game) => (
                 <Link to={`/gamesdetails/${game.id}`}
                   key={game.id}
                   className="group border border-gray-600 rounded-xl overflow-hidden shadow-md hover:scale-[1.03] transition-transform duration-300 bg-base-100"

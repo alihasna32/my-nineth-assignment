@@ -17,7 +17,7 @@ const BannerCard = ({data}) => {
   };
   return (
     <div className="">
-        <div className="flex flex-col items-center justify-center flex-grow lg:mb-10  ">
+        <div className="flex flex-col items-center justify-center grow lg:mb-10  ">
         <div
           ref={scrollRef}
           className="flex overflow-x-auto space-x-3 w-full py-4 xl:mt-5"

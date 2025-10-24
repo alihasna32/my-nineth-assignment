@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyByAfB1wUHR4di2XqKMRNvj0ITiUQ2ady4",
-  authDomain: "game-store-256c6.firebaseapp.com",
-  projectId: "game-store-256c6",
-  storageBucket: "game-store-256c6.firebasestorage.app",
-  messagingSenderId: "521523212333",
-  appId: "1:521523212333:web:fea376adc52101684b48a4"
+  apiKey:import.meta.env.VITE_apiKey ,
+  authDomain:import.meta.env.VITE_authDomain ,
+  projectId:import.meta.env.VITE_projectId ,
+  storageBucket:import.meta.env.VITE_storageBucket ,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId ,
+  appId:import.meta.env.VITE_appId ,
 };
 
 // Initialize Firebase
