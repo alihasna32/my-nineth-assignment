@@ -87,6 +87,7 @@ const SignIn = () => {
                   placeholder="Password"
                   required
                 />
+                <Link to="/forgotPassword" className="underline cursor-pointer">Forgot password</Link>
 
                 <button type="submit" className="py-1.5 rounded-md text-[18px] mt-4 bg-base-100 max-w-[320px] shadow-sm shadow-amber-900 cursor-pointer">
                   Login

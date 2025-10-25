@@ -9,6 +9,7 @@ import AllGames from "../Pages/AllGames";
 import GamesDetails from "../Components/GamesDetails";
 import PrivateRoutes from "../Contexts/PrivateRoutes";
 import AboutgameHub from "../Pages/AboutGamehub";
+import ForgotPassword from "../Components/ForgotPassword";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/aboutgameHub",
         element: <AboutgameHub></AboutgameHub>
+      },
+      {
+        path: "/forgotPassword",
+        element: <ForgotPassword></ForgotPassword>
       },
       {
         path: "/*",
