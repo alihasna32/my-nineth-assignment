@@ -153,16 +153,18 @@ const Navbar = () => {
                   </div>
 
                   <div className="modal-action flex justify-between">
-                    <button type="submit" className="w-screen border py-2 rounded-2xl px-14 bg-base-300">
+                    <button
+                      type="submit"
+                      className="w-screen border py-2 rounded-2xl px-14 bg-base-300"
+                    >
                       Update
                     </button>
-                    
                   </div>
                 </div>
               </form>
               <form method="dialog" className="modal-backdrop">
-    <button>close</button>
-  </form>
+                <button>close</button>
+              </form>
             </dialog>
             <button
               onClick={handleLogOut}
@@ -172,7 +174,7 @@ const Navbar = () => {
             </button>
           </div>
         ) : (
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col justify-center items-center sm:flex-row gap-4">
             <li className="list-none">
               <Link
                 to="/signin"

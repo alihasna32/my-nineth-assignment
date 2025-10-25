@@ -11,7 +11,9 @@ const HomeLayout = () => {
       </header>
 
       <main className="grow md:px-8">
-        <Outlet />
+        <div>
+          <Outlet />
+        </div>
       </main>
       <footer>
         <Footer></Footer>

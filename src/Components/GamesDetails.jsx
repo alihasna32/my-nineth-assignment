@@ -4,7 +4,7 @@ import { FcOk } from "react-icons/fc";
 import { Star } from "lucide-react";
 import { BiLeftArrow } from "react-icons/bi";
 import { toast } from "react-toastify";
-
+import { motion } from "motion/react"
 import installFile from "../assets/install_file.png"; 
 
 const GamesDetails = () => {
@@ -74,24 +74,34 @@ const GamesDetails = () => {
           {game.category}
         </div>
 
+        <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        onHoverStart={() => console.log('hover started!')}>
         <Link
           to="/allgames"
           state={{ selectedId: game.id }}
-          className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer"
+          className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:bg-gray-500 cursor-pointer"
         >
           <BiLeftArrow className="bg-red-500 rounded-2xl p-0.5" />
           BACK
         </Link>
+        </motion.button>
 
         <h1 className="font-semibold text-white">OR</h1>
 
+        <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
+        onHoverStart={() => console.log('hover started!')}>
         <button
           onClick={handleInstall}
-          className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:scale-105 transition-transform duration-300 hover:bg-gray-500 cursor-pointer"
+          className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:bg-gray-500 cursor-pointer"
         >
           INSTALL
           <FcOk />
         </button>
+        </motion.button>
 
         <div className="bg-secondary px-3.5 py-1.5 rounded-2xl">
           {game.developer}

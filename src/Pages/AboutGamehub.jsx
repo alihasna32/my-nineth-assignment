@@ -1,7 +1,13 @@
 import React from "react";
+import { motion } from "motion/react";
 
 const AboutgameHub = () => {
   return (
+    <motion.div
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    >
     <div className="min-h-screen bg-base-300 text-white py-12 px-6 lg:px-20">
       {/* Hero Section */}
       <section className="text-center mb-12">
@@ -66,6 +72,7 @@ const AboutgameHub = () => {
         </p>
       </section>
     </div>
+    </motion.div>
   );
 };
 

@@ -4,6 +4,7 @@ import {toast} from "react-toastify";
 import { AuthContext } from "../Contexts/AuthContext";
 import { GrGoogle } from "react-icons/gr";
 import { GoogleAuthProvider } from "firebase/auth";
+import { motion } from "motion/react";
 const SignIn = () => {
   const { signinWithAndPass, signInWithGoogle } = use(AuthContext);
 
@@ -53,6 +54,11 @@ const SignIn = () => {
   };
 
   return (
+    <motion.div
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    >
     <div className="hero bg-base-100 min-h-screen">
     <title>Sign In</title>
       <div className="hero-content flex-col w-full">
@@ -113,6 +119,7 @@ const SignIn = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 

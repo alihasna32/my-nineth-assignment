@@ -1,6 +1,7 @@
 import React, { use, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Contexts/AuthContext";
+import { motion } from "motion/react";
 const SignUp = () => {
   const { signupWithEmailAndPass, updateUser, setUser } = use(AuthContext);
 
@@ -61,6 +62,11 @@ const SignUp = () => {
   };
 
   return (
+    <motion.div
+      initial={{ scaleY: 0 }}
+      animate={{ scaleY: 1 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    >
     <div className="hero bg-base-100 min-h-screen">
     <title>Sign up</title>
       <div className="hero-content flex-col w-full">
@@ -138,6 +144,7 @@ const SignUp = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
