@@ -60,8 +60,9 @@ const router = createBrowserRouter([
       {
         path: "/*",
         element: (
-          <div className="flex justify-center items-center min-h-screen">
+          <div className="flex flex-col justify-center items-center min-h-screen gap-5">
             <img className="w-[400px]" src={error404} alt="404 Not Found" />
+            <h1 className="text-6xl font-black">Page not found</h1>
           </div>
         ),
       },

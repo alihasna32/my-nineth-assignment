@@ -51,7 +51,7 @@ const Navbar = () => {
       });
   };
   return (
-    <div className="navbar bg-base-300 shadow-sm px-10">
+    <div className="navbar bg-base-300 shadow-sm sm:px-10">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -90,7 +90,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="text-xl">
-          <img className="w-16" src="/Logo.png" alt="" />
+          <img className="w-16 max-sm:w-13" src="/Logo.png" alt="" />
         </Link>
       </div>
       <div className="navbar-end flex items-center gap-4">
@@ -174,11 +174,11 @@ const Navbar = () => {
             </button>
           </div>
         ) : (
-          <div className="flex flex-col justify-center items-center sm:flex-row gap-4">
+          <div className="flex justify-center items-center flex-row gap-4">
             <li className="list-none">
               <Link
                 to="/signin"
-                className="border bg-base-100 p-1.5 rounded-xl font-semibold"
+                className="border bg-base-100 p-1.5 rounded-xl font-semibold max-xl:text-[13px]"
               >
                 Sign In
               </Link>
@@ -186,7 +186,7 @@ const Navbar = () => {
             <li className="list-none">
               <Link
                 to="/signup"
-                className="border bg-base-100 p-1.5 rounded-xl font-semibold"
+                className="border bg-base-100 p-1.5 rounded-xl font-semibold max-xl:text-[13px]"
               >
                 Sign Up
               </Link>

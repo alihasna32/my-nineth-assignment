@@ -93,14 +93,15 @@ const GamesDetails = () => {
         <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
-        onHoverStart={() => console.log('hover started!')}>
-        <button
+        onHoverStart={() => console.log('hover started!')}
+
+        
           onClick={handleInstall}
           className="flex items-center gap-2.5 py-2.5 bg-white/30 px-8 rounded-full shadow-md hover:bg-gray-500 cursor-pointer"
         >
           INSTALL
           <FcOk />
-        </button>
+          
         </motion.button>
 
         <div className="bg-secondary px-3.5 py-1.5 rounded-2xl">

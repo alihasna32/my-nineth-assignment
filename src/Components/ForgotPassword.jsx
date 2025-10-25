@@ -25,6 +25,7 @@ const ForgotPassword = () => {
   };
   return (
     <div className="hero bg-base-100 min-h-screen">
+    <title>Forgot password</title>
       <form
         onSubmit={handleResetPassword}
         className="card bg-base-300 w-full max-w-sm shadow-2xl card-body"
