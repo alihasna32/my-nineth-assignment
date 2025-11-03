@@ -10,6 +10,7 @@ const AboutgameHub = () => {
     >
     <div className="min-h-screen bg-base-300 text-white py-12 px-6 lg:px-20">
       {/* Hero Section */}
+      <title>About Gamehub</title>
       <section className="text-center mb-12">
         <h1 className="text-4xl lg:text-5xl font-bold mb-4 text-accent">
           About GameHub

@@ -21,7 +21,7 @@ const AllGames = () => {
             type="radio"
             name="my_tabs_3"
             role="tab"
-            className="tab bg-accent rounded-t-xl"
+            className="tab bg-base-300 rounded-t-xl"
             aria-label="All Games"
             defaultChecked
           />
