@@ -51,5 +51,5 @@ npm run dev
 5️⃣ Open in Browser
 http://localhost:5173/
 
-🌍 Live Project Link
+🌍 Live Project Link: 
 game-store-256c6.web.app/
