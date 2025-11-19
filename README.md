@@ -37,26 +37,19 @@
 ## Installation & Running Locally
 Follow these steps to run Gamehub on your local machine:
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-Navigate into the project directory:
+git clone https://github.com/alihasna32/my-nineth-assignment.git
 
-bash
-Copy code
-cd gamehub
-Install dependencies:
+2️⃣ Navigate to the Project Folder
+cd my-nineth-assignment
 
-bash
-Copy code
+3️⃣ Install All Dependencies
 npm install
-Start the development server:
 
-bash
-Copy code
-npm start
-Open your browser and go to:
+4️⃣ Start the Development Server
+npm run dev
 
-arduino
-Copy code
-http://localhost:3000
+5️⃣ Open in Browser
+http://localhost:5173/
+
+🌍 Live Project Link
+game-store-256c6.web.app/
