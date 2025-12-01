@@ -6,7 +6,7 @@ const HomeLayout = () => {
   return (
     <div className="min-h-screen flex flex-col">
      <title>HOME</title>
-      <header>
+      <header className="sticky top-0 z-50">
         <Navbar />
       </header>
 

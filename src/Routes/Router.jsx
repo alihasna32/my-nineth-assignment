@@ -10,6 +10,7 @@ import GamesDetails from "../Components/GamesDetails";
 import PrivateRoutes from "../Contexts/PrivateRoutes";
 import AboutgameHub from "../Pages/AboutGamehub";
 import ForgotPassword from "../Components/ForgotPassword";
+import Contact from "../Pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -43,9 +44,7 @@ const router = createBrowserRouter([
       },
       {
           path: "/gamesdetails/:id",
-          element: <PrivateRoutes>
-            <GamesDetails></GamesDetails>
-          </PrivateRoutes>,
+          element:<GamesDetails></GamesDetails>,
           loader: () => fetch("/Games.json"),
         hydrateFallbackElement: <Loading />,
       },
@@ -56,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "/forgotPassword",
         element: <ForgotPassword></ForgotPassword>
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
         path: "/*",

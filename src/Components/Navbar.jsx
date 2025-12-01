@@ -50,6 +50,27 @@ const Navbar = () => {
         console.log(error);
       });
   };
+
+  const navLinks = [
+    <>
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/allgames">All Games</NavLink>
+      </li>
+      {
+        user ? <>
+          <li>
+        <NavLink to="/aboutgameHub">About GameHub</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Contact</NavLink>
+      </li>
+        </> : " "
+      }
+    </>,
+  ];
   return (
     <div className="navbar bg-base-300 shadow-sm sm:px-10">
       <div className="navbar-start">
@@ -78,15 +99,7 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content gap-4 bg-base-300 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/allgames">All Games</NavLink>
-            </li>
-            <li>
-              <NavLink to="/aboutgameHub">About GameHub</NavLink>
-            </li>
+            {navLinks}
           </ul>
         </div>
         <Link to="/" className="text-xl">
@@ -95,17 +108,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end flex items-center gap-4">
         <div className="hidden lg:flex">
-          <ul className="menu menu-horizontal ">
-            <li>
-              <NavLink to="/">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/allgames">All Games</NavLink>
-            </li>
-            <li>
-              <NavLink to="/aboutgameHub">About GameHub</NavLink>
-            </li>
-          </ul>
+          <ul className="menu menu-horizontal ">{navLinks}</ul>
         </div>
 
         {user ? (
@@ -181,14 +184,6 @@ const Navbar = () => {
                 className="border bg-base-100 p-1.5 rounded-xl font-semibold max-xl:text-[13px]"
               >
                 Sign In
-              </Link>
-            </li>
-            <li className="list-none">
-              <Link
-                to="/signup"
-                className="border bg-base-100 p-1.5 rounded-xl font-semibold max-xl:text-[13px]"
-              >
-                Sign Up
               </Link>
             </li>
           </div>
