@@ -5,7 +5,6 @@ const BannerCard = ({ data }) => {
   return (
     <div className="px-4">
       <div className="flex flex-col items-center justify-center grow lg:mb-10">
-
         {/* MAIN CAROUSEL */}
         <Carousel
           autoPlay
