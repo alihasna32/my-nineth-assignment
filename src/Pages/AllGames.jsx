@@ -57,7 +57,7 @@ const AllGames = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className="min-h-screen bg-base-200 py-10 px-4"
+      className="min-h-screen bg-base-300 py-10 px-4 rounded-2xl"
     >
       <div className="max-w-7xl mx-auto">
         {/* Header */}

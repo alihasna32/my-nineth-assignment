@@ -33,7 +33,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/allgames",
-        element: <AllGames></AllGames>,
+        element: <div className="md:py-5">
+          <AllGames></AllGames>
+        </div>,
         loader: () => fetch("/Games.json"),
         hydrateFallbackElement: <Loading />,
       },
