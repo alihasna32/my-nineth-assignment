@@ -7,7 +7,13 @@
     "downloadLink": "https://www.rockstargames.com/gta-v",
     "description": "Grand Theft Auto V is an expansive and critically acclaimed open-world action-adventure game developed by Rockstar North. The game is set in the fictional state of San Andreas, based on Southern California, and features a sprawling narrative that follows three main protagonists: Michael De Santa, Franklin Clinton, and Trevor Philips. Players can freely roam the vast landscape of Los Santos, a city based on Los Angeles, and the surrounding Blaine County, engaging in various missions, side activities, and criminal enterprises. The game is renowned for its satirical take on American culture, its deeply engaging story, and its dynamic, living, breathing world. Beyond the single-player campaign, GTA V includes the massively popular Grand Theft Auto Online, a persistent online multiplayer world where players can complete heists, race, engage in deathmatches, and build their own criminal empires. The level of detail, from the physics of driving to the ambient chatter of NPCs, sets a high bar for the open-world genre, offering hundreds of hours of unique and chaotic gameplay.",
     "ratings": "4.9",
-    "developer": "Rockstar North"
+    "developer": "Rockstar North",
+    "releaseYear": "2013",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "PS3", "Xbox 360"],
+    "size": "110-120 GB",
+    "mode": "Single Player + Online Multiplayer",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["open-world", "crime", "heist", "multiplayer", "story-rich", "satire", "cars"]
   },
   {
     "id": 2,
@@ -17,7 +23,13 @@
     "downloadLink": "https://www.thewitcher.com/en/witcher3",
     "description": "The Witcher 3: Wild Hunt is a fantasy action role-playing game developed by CD Projekt Red, based on the book series by Andrzej Sapkowski. Players take on the role of **Geralt of Rivia**, a monster slayer for hire known as a Witcher, who is searching for his adopted daughter **Ciri**, who is on the run from the mysterious and otherworldly Wild Hunt. The game is celebrated for its massive and beautiful open world, the Continent, which is filled with morally ambiguous choices, deep side quests, and legendary monsters to track down. The narrative is complex, mature, and driven by player decisions, where even the smallest choices can have far-reaching consequences. Combat is a fluid mix of sword fighting, magic (Signs), and alchemy. With its unforgettable characters, emotional storytelling, and commitment to player freedom in a rich, detailed fantasy setting, The Witcher 3 is often cited as one of the greatest RPGs ever made. It also includes two massive, award-winning expansions, Hearts of Stone and Blood and Wine, which offer entirely new regions and dozens of hours of content.",
     "ratings": "4.8",
-    "developer": "CD Projekt Red"
+    "developer": "CD Projekt Red",
+    "releaseYear": "2015",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "Nintendo Switch"],
+    "size": "50-70 GB",
+    "mode": "Single Player",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["rpg", "fantasy", "story-rich", "choices-matter", "monsters", "goty", "medieval"]
   },
   {
     "id": 3,
@@ -27,7 +39,13 @@
     "downloadLink": "https://www.minecraft.net/en-us/download",
     "description": "Minecraft is a sandbox video game created by Markus 'Notch' Persson and developed by **Mojang Studios**. It has become a global phenomenon, focusing on **creativity, building, and survival** in a blocky, procedurally generated 3D world. Players can explore vast terrains, including plains, mountains, caves, and various biomes, all while discovering raw materials, crafting tools, and constructing structures. The game has no specific goals, allowing players an immense amount of freedom to choose how they play. Whether you prefer to meticulously build grand castles in Creative mode, fight for survival against nocturnal monsters like zombies and Creepers in Survival mode, or explore other players' custom-made worlds, Minecraft offers something for everyone. Its core mechanics of **mining resources, crafting items, and building structures** are simple to grasp but offer endless possibilities for complex creations. The game's enduring appeal lies in its limitless potential for emergent gameplay and community-driven content, making it a timeless title for all ages.",
     "ratings": "4.6",
-    "developer": "Mojang Studios"
+    "developer": "Mojang Studios",
+    "releaseYear": "2011",
+    "platforms": ["PC", "Mobile", "PS5", "PS4", "Xbox", "Switch", "All Platforms"],
+    "size": "1-10 GB",
+    "mode": "Single + Multiplayer + Realms",
+    "ageRating": "Everyone 10+ (ESRB)",
+    "tags": ["sandbox", "creative", "building", "survival", "kids-friendly", "modding", "pixel"]
   },
   {
     "id": 4,
@@ -37,7 +55,13 @@
     "downloadLink": "https://en.bandainamcoent.eu/elden-ring/elden-ring",
     "description": "Elden Ring is an action role-playing game developed by **FromSoftware**, in collaboration with fantasy novelist **George R. R. Martin**. Set in the **Lands Between**, a sprawling, dark fantasy open world, the game challenges players to become the Elden Lord. It retains the signature challenging combat and intricate world design of FromSoftware's 'Souls' games, but expands upon it with a massive, seamlessly integrated open world that encourages exploration. Players are given an unprecedented amount of freedom to traverse the map on horseback, uncover hidden dungeons, and choose their own path, with very little guidance. The combat is deeply satisfying, requiring precise timing, strategic use of weapons, magic, and new features like Spirit Ashes. The world is rich with lore, fragmented storytelling, and monumental boss battles that test the player's skill and patience. Elden Ring's blend of challenging gameplay, gorgeous art direction, and non-linear exploration has set a new standard for the open-world RPG, making every discovery feel earned and every victory monumental.",
     "ratings": "4.7",
-    "developer": "FromSoftware"
+    "developer": "FromSoftware",
+    "releaseYear": "2022",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "size": "60 GB",
+    "mode": "Single Player + Co-op + PvP",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["soulslike", "open-world", "difficult", "boss-fight", "fantasy", "goty-2022", "exploration"]
   },
   {
     "id": 5,
@@ -47,7 +71,13 @@
     "downloadLink": "https://playvalorant.com/en-us/",
     "description": "Valorant is a free-to-play tactical first-person shooter developed and published by **Riot Games**, the creators of League of Legends. The core gameplay revolves around two teams of five players, with one team attacking and the other defending a site. Players choose from a roster of **'Agents,'** each possessing unique abilities that require a combination of strategic planning and precise gunplay. Unlike traditional FPS games, Valorant blends the sharp shooting mechanics of games like Counter-Strike with character-based abilities, adding a layer of depth and team synergy. A typical match consists of 25 rounds, where the first team to win 13 rounds is victorious. The game is highly competitive and demands excellent communication, map knowledge, and mechanical skill. Its commitment to fair play, including strict anti-cheat measures and highly responsive servers, has cemented its place as one of the leading titles in the **esports** scene. The game's vibrant, colorful aesthetic and diverse cast of characters from all over the world make it visually distinctive within the tactical shooter genre.",
     "ratings": "4.4",
-    "developer": "Riot Games"
+    "developer": "Riot Games",
+    "releaseYear": "2020",
+    "platforms": ["PC"],
+    "size": "25-35 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["fps", "competitive", "5v5", "esports", "free-to-play", "tactical", "agents"]
   },
   {
     "id": 6,
@@ -57,7 +87,13 @@
     "downloadLink": "https://www.xbox.com/en-US/games/forza-horizon-5",
     "description": "Forza Horizon 5 is an open-world racing video game developed by **Playground Games**. It is set in a stunning and diverse rendition of **Mexico**, offering players a massive, beautiful landscape to explore that ranges from dense jungles and active volcanoes to vibrant cities and sun-bleached deserts. The game’s main premise is the **Horizon Festival**, an extravagant, long-running automotive celebration. Players participate in various racing events, stunts, and challenges while collecting and customizing hundreds of the world's greatest cars. The driving physics strike a perfect balance between arcade fun and simulation realism, making it accessible to newcomers yet deep enough for racing enthusiasts. Beyond the exhilarating speed and gorgeous graphics, the game features dynamic weather and seasonal changes that directly impact the terrain and race conditions. Forza Horizon 5 is lauded for its sheer variety of activities, its robust multiplayer components, and its commitment to a celebratory, inclusive car culture, offering one of the most comprehensive and enjoyable open-world driving experiences available.",
     "ratings": "4.6",
-    "developer": "Playground Games"
+    "developer": "Playground Games",
+    "releaseYear": "2021",
+    "platforms": ["PC", "Xbox Series X|S", "Xbox One"],
+    "size": "110-150 GB",
+    "mode": "Single + Online Multiplayer",
+    "ageRating": "Everyone (ESRB)",
+    "tags": ["racing", "open-world", "cars", "mexico", "graphics", "festival", "driving"]
   },
   {
     "id": 7,
@@ -67,7 +103,13 @@
     "downloadLink": "https://www.rockstargames.com/reddeadredemption2",
     "description": "Red Dead Redemption 2 is an epic western-themed action-adventure game developed by **Rockstar Games**. It serves as a prequel to the first Red Dead Redemption and follows the story of **Arthur Morgan**, an outlaw and member of the Van der Linde gang, as they navigate the decline of the Wild West era. Set in a massive, meticulously detailed open world that spans five fictional American states, the game is celebrated for its breathtaking realism, deep narrative, and stunning visual fidelity. The gameplay is immersive, requiring players to manage their equipment, maintain their weapons, and even bond with their horse. Every interaction, from a simple greeting to a high-stakes robbery, feels impactful and contributes to Arthur's honor system. The main campaign offers a tragic and deeply emotional story that explores themes of loyalty, freedom, and the cost of survival. It also includes Red Dead Online, the game’s persistent multiplayer mode, allowing players to forge their own path as outlaws in the vast, untamed frontier. Its commitment to detail and emotional storytelling makes it a landmark achievement in modern gaming.",
     "ratings": "4.9",
-    "developer": "Rockstar Games"
+    "developer": "Rockstar Games",
+    "releaseYear": "2018",
+    "platforms": ["PC", "PS4", "Xbox One", "Stadia"],
+    "size": "120 GB",
+    "mode": "Single Player + Online Multiplayer",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["western", "story-rich", "open-world", "cowboy", "horses", "emotional", "realism"]
   },
   {
     "id": 8,
@@ -77,7 +119,13 @@
     "downloadLink": "https://www.cyberpunk.net/us/en/buy",
     "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in **Night City**, a megalopolis obsessed with power, glamour, and body modification. Developed by **CD Projekt Red**, the creators of The Witcher series, the game puts players in the shoes of **V**, a mercenary outlaw chasing a unique implant—the key to immortality. The game features a dynamic class system, deep character customization, and a vast, dense urban environment that players can explore. Combat is a blend of traditional first-person shooter mechanics, unique cyberware abilities, and 'Netrunning' (hacking). Despite a challenging launch, the game has been significantly updated and is now praised for its stunning visual design, intricate side quests, and compelling main narrative featuring Keanu Reeves as the iconic Johnny Silverhand. The level of player choice in both the narrative and character build offers a highly personal experience in a beautiful, yet dangerous, futuristic setting.",
     "ratings": "4.3",
-    "developer": "CD Projekt Red"
+    "developer": "CD Projekt Red",
+    "releaseYear": "2020",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "size": "70-80 GB",
+    "mode": "Single Player",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["cyberpunk", "rpg", "keanu-reeves", "night-city", "choices", "hacking", "futuristic"]
   },
   {
     "id": 9,
@@ -87,7 +135,13 @@
     "downloadLink": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
     "description": "God of War Ragnarök is an action-adventure game developed by **Santa Monica Studio** and the direct sequel to the 2018 title, God of War. Continuing the journey of **Kratos** and his son **Atreus** in the realm of Norse mythology, the game is set during the prophesied end-of-days, Ragnarök. They travel across the nine realms, seeking answers and forging alliances before the final, cataclysmic confrontation. The gameplay retains the brutal, satisfying combat of its predecessor, with Kratos utilizing his signature Leviathan Axe and Blades of Chaos, while Atreus's combat skills have significantly evolved. The game is celebrated for its masterful storytelling, which delves into the complex father-son relationship, explores deeper mythological themes, and presents a cinematic experience unmatched by many. It features stunning visuals, phenomenal voice acting, and puzzles seamlessly integrated into the world. Ragnarök is a narrative and technical powerhouse, providing a deeply moving conclusion to the Norse saga.",
     "ratings": "4.8",
-    "developer": "Santa Monica Studio"
+    "developer": "Santa Monica Studio",
+    "releaseYear": "2022",
+    "platforms": ["PS5", "PS4", "PC (2024)"],
+    "size": "90-110 GB",
+    "mode": "Single Player",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["action-adventure", "norse-mythology", "kratos", "atreus", "cinematic", "story", "combat"]
   },
   {
     "id": 10,
@@ -97,7 +151,13 @@
     "downloadLink": "https://www.dota2.com/home",
     "description": "Dota 2 is a highly competitive free-to-play Multiplayer Online Battle Arena (MOBA) game developed and published by **Valve Corporation**. It pits two teams of five players against each other, with the objective of destroying the enemy's 'Ancient'—a large structure located within their base, which is protected by towers and defensive structures. Each player controls a powerful character known as a **'Hero,'** all of whom possess unique abilities, playstyles, and roles. The game is known for its steep learning curve, requiring deep strategic understanding, resource management (gold and experience), and intense team coordination. With over a hundred heroes available, the possibilities for team compositions and tactical depth are virtually endless. Dota 2 is one of the most popular and highest-paying esports titles in the world, culminating in the annual international championship, **The International**. Its complex mechanics and high skill ceiling ensure a rewarding experience for dedicated players.",
     "ratings": "4.5",
-    "developer": "Valve Corporation"
+    "developer": "Valve Corporation",
+    "releaseYear": "2013",
+    "platforms": ["PC", "Mac", "Linux"],
+    "size": "60 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["moba", "esports", "competitive", "free-to-play", "strategy", "heroes", "the-international"]
   },
   {
     "id": 11,
@@ -107,7 +167,13 @@
     "downloadLink": "https://www.leagueoflegends.com/en-us/download/",
     "description": "League of Legends (LoL) is a fast-paced, competitive, free-to-play MOBA game developed by **Riot Games**. Two teams of five powerful champions clash, with the goal of destroying the enemy team's **Nexus**, located at the heart of their base. Players choose from a vast and ever-growing roster of **Champions**, each with unique abilities and playstyles, fulfilling roles like Top, Jungle, Mid, Bot, and Support. The game is characterized by its lane pushing, strategic jungle control, item building, and intense team fights. LoL is globally recognized as the world's largest esport, with millions of players and massive professional leagues worldwide. Unlike many other competitive games, League of Legends emphasizes strategic macro-play and character knowledge over raw mechanical skill alone. Its consistent updates, balance changes, and introduction of new Champions keep the gameplay fresh and the metagame constantly evolving, making it a cornerstone of the competitive gaming world.",
     "ratings": "4.5",
-    "developer": "Riot Games"
+    "developer": "Riot Games",
+    "releaseYear": "2009",
+    "platforms": ["PC"],
+    "size": "16 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["moba", "esports", "champions", "competitive", "free-to-play", "team-fight", "lcs"]
   },
   {
     "id": 12,
@@ -117,7 +183,13 @@
     "downloadLink": "https://overwatch.blizzard.com/en-us/",
     "description": "Overwatch 2 is a vibrant, team-based, free-to-play **hero shooter** developed by **Blizzard Entertainment**. It follows up on the original groundbreaking game, shifting the standard team composition from 6v6 to a more streamlined and fast-paced **5v5 format**. Players select from a diverse roster of unique heroes categorized into three roles: **Tank, Damage, and Support**. Each hero has distinct abilities and 'Ultimate' moves that must be coordinated with the team to achieve objectives like pushing a payload or capturing control points. Overwatch 2 features a colorful, optimistic world with deep lore, emphasizing teamwork, strategy, and rapid on-the-fly decision-making. The game is constantly updated with new heroes, maps, and game modes, ensuring a dynamic competitive experience. Its appealing visual style, focus on objective play, and high degree of mechanical skill make it one of the most popular and accessible competitive FPS games.",
     "ratings": "4.2",
-    "developer": "Blizzard Entertainment"
+    "developer": "Blizzard Entertainment",
+    "releaseYear": "2022",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch"],
+    "size": "50 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["hero-shooter", "team-based", "5v5", "esports", "free-to-play", "heroes", "blizzard"]
   },
   {
     "id": 13,
@@ -127,7 +199,13 @@
     "downloadLink": "https://www.ea.com/games/apex-legends/play-now-for-free",
     "description": "Apex Legends is a free-to-play hero shooter battle royale game developed by **Respawn Entertainment**, set in the same universe as the Titanfall series. The game pits twenty three-person squads (or thirty two-person squads) against each other in a frantic fight for survival on ever-shrinking maps. Players choose from a growing roster of unique characters called **'Legends,'** each possessing distinct tactical, passive, and ultimate abilities. Apex Legends is celebrated for its fluid, fast-paced movement (including sliding and climbing), an innovative context-sensitive ping system for non-verbal communication, and a revolutionary 'respawn' mechanic that allows defeated teammates to be brought back into the match. Its dynamic gunplay, combined with the strategic depth provided by the unique Legend abilities, offers a highly competitive and engaging experience. The game's commitment to continuous updates with new maps, characters, and limited-time events keeps its massive player base consistently engaged and its esports scene thriving.",
     "ratings": "4.4",
-    "developer": "Respawn Entertainment"
+    "developer": "Respawn Entertainment",
+    "releaseYear": "2019",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch", "Mobile"],
+    "size": "75 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["battle-royale", "hero-shooter", "squad", "free-to-play", "movement", "ping-system", "legends"]
   },
   {
     "id": 14,
@@ -137,7 +215,13 @@
     "downloadLink": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
     "description": "The Legend of Zelda: Tears of the Kingdom is a monumental action-adventure game developed by **Nintendo EAD**, serving as the direct sequel to Breath of the Wild. Players once again assume the role of **Link** as he explores an expanded version of **Hyrule**, now featuring massive, explorable sky islands and a dark underworld area, in addition to the familiar ground level. The game is built around new core mechanics—specifically, Link's powerful new abilities like **'Ultrahand,'** which allows players to build complex vehicles, weapons, and structures, and **'Fuse,'** which lets them combine almost any two objects. This unprecedented level of creative freedom turns the entire world into a giant physics playground, allowing players to solve puzzles and approach combat in endlessly inventive ways. The game’s emotional, layered story, breathtaking scale, and technical ambition have cemented its place as one of the most innovative open-world games ever made.",
     "ratings": "4.9",
-    "developer": "Nintendo EAD"
+    "developer": "Nintendo EAD",
+    "releaseYear": "2023",
+    "platforms": ["Nintendo Switch"],
+    "size": "16 GB",
+    "mode": "Single Player",
+    "ageRating": "Everyone 10+ (ESRB)",
+    "tags": ["open-world", "adventure", "zelda", "puzzle", "creative", "physics", "hyrule"]
   },
   {
     "id": 15,
@@ -147,7 +231,13 @@
     "downloadLink": "https://www.callofduty.com/modernwarfare3/buy",
     "description": "Call of Duty: Modern Warfare III is a premier first-person shooter developed by **Sledgehammer Games** and a direct continuation of the critically acclaimed Modern Warfare rebooted series. The game features a compelling single-player campaign where Captain Price and Task Force 141 face the ultra-nationalist threat of Vladimir Makarov. However, the game's main draw is its massive multiplayer suite, which includes the return of fan-favorite maps, new game modes, and the integration of a massive **Zombies** experience. The core gameplay is defined by its fast-paced, responsive gunplay, seamless movement mechanics, and high-fidelity graphics. With its deep weapon customization, seasonal content drops, and integration with the standalone **Warzone** Battle Royale experience, Modern Warfare III maintains its position as a powerhouse in the FPS genre, offering a comprehensive and adrenaline-fueled military combat experience across various modes and platforms.",
     "ratings": "4.1",
-    "developer": "Sledgehammer Games"
+    "developer": "Sledgehammer Games",
+    "releaseYear": "2023",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "size": "130 GB",
+    "mode": "Single Player + Online Multiplayer",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["fps", "military", "campaign", "multiplayer", "zombies", "warzone", "gunplay"]
   },
   {
     "id": 16,
@@ -157,7 +247,13 @@
     "downloadLink": "https://www.playstation.com/en-us/games/horizon-forbidden-west/",
     "description": "Horizon Forbidden West is an action RPG developed by **Guerrilla Games** and the sequel to Horizon Zero Dawn. The game continues the journey of the protagonist, **Aloy**, a skilled hunter in a post-apocalyptic world overrun by deadly, animalistic machines. Aloy travels to the majestic, yet perilous, area known as the Forbidden West to investigate a mysterious blight that is killing the land. The game features a stunning open world with diverse biomes, ranging from lush valleys and snowy mountains to sunken ruins and tropical beaches. Combat is a thrilling mix of stealth, utilizing various futuristic weapons (like the signature bow), and strategically taking down giant machines by targeting their weak spots. Forbidden West significantly expands on the world's lore, introduces new tribal factions, and enhances the traversal options with tools like the Shieldwing glider and a diving mask. It is critically praised for its visual fidelity, compelling main story, and exciting machine combat.",
     "ratings": "4.7",
-    "developer": "Guerrilla Games"
+    "developer": "Guerrilla Games",
+    "releaseYear": "2022",
+    "platforms": ["PS5", "PS4", "PC (2024)"],
+    "size": "100 GB",
+    "mode": "Single Player",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["open-world", "post-apocalyptic", "machines", "aloy", "combat", "exploration", "story"]
   },
   {
     "id": 17,
@@ -167,7 +263,13 @@
     "downloadLink": "https://na.finalfantasyxiv.com/start_pc/",
     "description": "Final Fantasy XIV is a massively multiplayer online role-playing game (MMORPG) developed and published by **Square Enix**. Set in the fantastical world of **Eorzea**, the game follows the story of the Warrior of Light, a customizable hero with the ability to switch between all of the game's classes (or 'Jobs') on a single character. FFXIV is renowned for its exceptional, narrative-driven experience, often cited as one of the best stories in the Final Fantasy franchise. The gameplay features traditional MMORPG elements like questing, dungeons, and raids, but with a unique 'Job' system that encourages versatility. After a famously troubled launch in 2010, the game was relaunched as **'A Realm Reborn'** in 2013 and has since grown into a massive global phenomenon, thanks to its compelling narrative arcs, highly devoted community, and consistent delivery of high-quality, cinematic expansion packs. Its comprehensive free trial allows new players to experience the entire base game and first expansion without a time limit.",
     "ratings": "4.8",
-    "developer": "Square Enix"
+    "developer": "Square Enix",
+    "releaseYear": "2013",
+    "platforms": ["PC", "PS5", "PS4"],
+    "size": "80 GB",
+    "mode": "Online Multiplayer (MMO)",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["mmorpg", "fantasy", "story-rich", "raids", "free-trial", "jobs", "eorzea"]
   },
   {
     "id": 18,
@@ -177,7 +279,13 @@
     "downloadLink": "https://www.residentevil.com/re4/en-us/",
     "description": "Resident Evil 4 (2023 Remake) is a survival horror and third-person shooter developed by **Capcom**. It is a reimagining of the groundbreaking 2005 classic, following the story of US agent **Leon S. Kennedy** as he is sent on a mission to rescue the President's daughter, Ashley Graham, who has been kidnapped by a mysterious cult in a secluded European village. The game features the tense atmosphere and resource management of classic survival horror, combined with intense, modern third-person action. The remake preserves the core narrative and iconic moments of the original while completely overhauling the graphics, modernizing the control scheme, and expanding the enemy encounters and environments. The combat is visceral and satisfying, forcing players to manage crowds of the crazed, infected **'Ganados'** with limited ammunition and carefully timed knife parries. It is hailed as a masterclass in modernizing a classic, successfully blending horror, action, and suspense.",
     "ratings": "4.7",
-    "developer": "Capcom"
+    "developer": "Capcom",
+    "releaseYear": "2023",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S"],
+    "size": "60 GB",
+    "mode": "Single Player",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["survival-horror", "remake", "zombies", "action", "leon-kennedy", "qte", "capcom"]
   },
   {
     "id": 19,
@@ -187,7 +295,13 @@
     "downloadLink": "https://www.rocketleague.com/",
     "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem, developed by **Psyonix**. The game pits two teams of players, each controlling rocket-powered cars, in an arena to hit a giant ball into the opponent's goal. While the concept is simple—**soccer with cars**—the execution is deep and skill-based, with a high ceiling for mastery. Players can jump, flip, and use rocket boosts to maneuver their cars in complex ways, performing aerial acrobatics and wall-runs to strike the ball. The game supports various team sizes, from 1v1 duels to 4v4 chaos. Its core appeal lies in its easy-to-learn, difficult-to-master mechanics, which lead to stunning displays of acrobatics and strategic coordination in competitive play. Since becoming free-to-play, Rocket League has maintained a massive, dedicated player base and a thriving esports scene, making it a unique and enduring entry in the sports and competitive gaming landscape.",
     "ratings": "4.3",
-    "developer": "Psyonix"
+    "developer": "Psyonix",
+    "releaseYear": "2015",
+    "platforms": ["PC", "PS5", "PS4", "Xbox", "Switch", "Mobile"],
+    "size": "20 GB",
+    "mode": "Online Multiplayer + Local",
+    "ageRating": "Everyone 10+ (ESRB)",
+    "tags": ["sports", "cars", "soccer", "multiplayer", "aerial", "free-to-play", "esports"]
   },
   {
     "id": 20,
@@ -197,7 +311,13 @@
     "downloadLink": "https://genshin.hoyoverse.com/en/download",
     "description": "Genshin Impact is an open-world action RPG developed by **miHoYo (HoYoverse)**. Set in the fantasy world of **Teyvat**, the game follows the Traveler, who is searching for their lost twin sibling and explores the world's seven nations, each tied to an element and ruled by a god (Archon). The game features a massive, breathtakingly beautiful open world that players can traverse by gliding, climbing, and running. Combat is fast-paced, revolving around switching between a party of four characters to trigger powerful **elemental reactions** (Pyro, Hydro, Electro, Cryo, etc.). Genshin Impact is also famous for its **Gacha** system, where players 'wish' for new characters and weapons. Its success is due to its high production value, frequent content updates that add new regions and characters, an engaging main story, and the free-to-play model that allows anyone to jump in and experience the majority of the game's vast content, making it a worldwide mobile and PC phenomenon.",
     "ratings": "4.5",
-    "developer": "HoYoverse (miHoYo)"
+    "developer": "HoYoverse (miHoYo)",
+    "releaseYear": "2020",
+    "platforms": ["PC", "PS5", "PS4", "Mobile", "Switch (upcoming)"],
+    "size": "30-40 GB",
+    "mode": "Single + Co-op Multiplayer",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["gacha", "open-world", "anime", "elemental", "free-to-play", "exploration", "story"]
   },
   {
     "id": 21,
@@ -207,7 +327,13 @@
     "downloadLink": "https://www.nintendo.com/us/store/products/animal-crossing-new-horizons-switch/",
     "description": "Animal Crossing: New Horizons is a life simulation game developed by **Nintendo EPD** for the Nintendo Switch. Players move to a deserted island through the 'Nook Inc. Deserted Island Getaway Package' and slowly develop it into a vibrant, thriving community. The game operates in real-time and emphasizes slow, relaxed gameplay where the main activities include **fishing, bug catching, gardening, collecting items, and customizing the island** and the player's home. There is no strict plot or time limit; the focus is on creative expression, decorating, and building relationships with the charming anthropomorphic animal villagers who move to the island. Its release coincided perfectly with a global need for escapism, turning it into a cultural phenomenon. New Horizons is celebrated for its soothing, non-stressful gameplay loop, its charming visual style, and its deep customization tools, allowing players to create their own unique slice of paradise.",
     "ratings": "4.7",
-    "developer": "Nintendo EPD"
+    "developer": "Nintendo EPD",
+    "releaseYear": "2020",
+    "platforms": ["Nintendo Switch"],
+    "size": "7 GB",
+    "mode": "Single + Online Multiplayer",
+    "ageRating": "Everyone (ESRB)",
+    "tags": ["simulation", "relaxing", "customization", "island", "villagers", "cozy", "nintendo"]
   },
   {
     "id": 22,
@@ -217,7 +343,13 @@
     "downloadLink": "https://www.hogwartslegacy.com/en-us",
     "description": "Hogwarts Legacy is an action RPG developed by **Avalanche Software**, set in the **Wizarding World** of the 1890s, approximately a century before the events of the Harry Potter books. Players create their own customizable student who enrolls at the iconic **Hogwarts School of Witchcraft and Wizardry**. The game features a massive, fully-explorable recreation of the castle and the surrounding areas like Hogsmeade and the Forbidden Forest. Gameplay centers on attending classes, learning spells, brewing potions, taming magical beasts, and fighting a growing threat to the wizarding world. The combat system is deep and satisfying, built around strategically chaining different spells and abilities. It allows players to finally live out the fantasy of being a student at Hogwarts, uncovering ancient secrets, making choices that define their legacy, and becoming the witch or wizard they've always dreamed of being. Its faithful and vast recreation of the beloved fantasy world was the main driver of its enormous commercial success.",
     "ratings": "4.4",
-    "developer": "Avalanche Software"
+    "developer": "Avalanche Software",
+    "releaseYear": "2023",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch"],
+    "size": "85 GB",
+    "mode": "Single Player",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["harry-potter", "rpg", "magic", "hogwarts", "spells", "open-world", "wizard"]
   },
   {
     "id": 23,
@@ -227,7 +359,13 @@
     "downloadLink": "https://www.ea.com/games/ea-sports-fc/fc-25",
     "description": "EA Sports FC 25 (formerly known as FIFA) is the latest installment in the world's most popular football (soccer) simulation video game series, developed by **EA Vancouver**. The game offers a comprehensive and authentic experience of the global sport, featuring thousands of real players, hundreds of clubs, and numerous licensed leagues and stadiums from around the world. The core gameplay focuses on realistic physics, tactical player control, and various game modes. The most popular mode is **Ultimate Team (FUT)**, where players collect cards to build their dream squad and compete online. Other modes include Career Mode (managing a club or player), Pro Clubs, and the Volta street football mode. FC 25 continuously refines its gameplay with new animation technology and tactical depth, ensuring a highly realistic simulation. Its global appeal and competitive online features keep it firmly at the top of the sports video game charts every year.",
     "ratings": "4.1",
-    "developer": "EA Vancouver"
+    "developer": "EA Vancouver",
+    "releaseYear": "2024",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch"],
+    "size": "50 GB",
+    "mode": "Single + Online Multiplayer",
+    "ageRating": "Everyone (ESRB)",
+    "tags": ["soccer", "simulation", "ultimate-team", "career-mode", "realistic", "football", "ea"]
   },
   {
     "id": 24,
@@ -237,7 +375,13 @@
     "downloadLink": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
     "description": "Marvel's Spider-Man 2 is an action-adventure game developed by **Insomniac Games**. It is the sequel to Marvel's Spider-Man and Spider-Man: Miles Morales, featuring both **Peter Parker and Miles Morales** as playable Spider-Men. The game is set in an expanded version of New York City, including new areas like Queens and Brooklyn, providing an even larger open world for players to explore. The core gameplay loop is centered on the exhilarating web-swinging, which is faster and more fluid than ever, alongside a refined and expanded combat system that utilizes both characters' unique abilities and new gadgets, including Peter's Symbiote suit. The narrative is a compelling, cinematic story that introduces iconic villains like **Venom** and Kraven the Hunter. Its high-fidelity graphics, fast-paced action, and engaging narrative make it one of the premier superhero gaming experiences, continuing Insomniac's successful run with the Marvel IP.",
     "ratings": "4.8",
-    "developer": "Insomniac Games"
+    "developer": "Insomniac Games",
+    "releaseYear": "2023",
+    "platforms": ["PS5", "PC (2025)"],
+    "size": "75 GB",
+    "mode": "Single Player",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["superhero", "spider-man", "open-world", "web-swinging", "combat", "venom", "marvel"]
   },
   {
     "id": 25,
@@ -247,7 +391,13 @@
     "downloadLink": "https://diablo4.blizzard.com/en-us/",
     "description": "Diablo IV is an action role-playing game developed by **Blizzard Entertainment**, returning the franchise to its darker, more gothic roots. The game is set decades after the events of Diablo III, in the dark and war-torn world of **Sanctuary**, which is now facing the return of the demon **Lilith**. Players choose from five customizable classes (Barbarian, Sorceress, Rogue, Druid, or Necromancer) and explore a massive, seamless open world filled with dungeons, world events, and challenging world bosses. The core gameplay loop focuses on **'loot'**—killing hordes of demons to acquire powerful items and continually upgrading your character build. It retains the addictive, fast-paced 'hack and slash' combat the series is known for, while introducing a true open-world structure and an engaging, dark narrative. Diablo IV includes extensive co-op and PvP elements, making it a live-service game with continuous seasonal content updates and new areas to explore.",
     "ratings": "4.5",
-    "developer": "Blizzard Entertainment"
+    "developer": "Blizzard Entertainment",
+    "releaseYear": "2023",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "size": "90 GB",
+    "mode": "Single + Online Multiplayer",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["arpg", "loot", "hack-slash", "open-world", "demons", "classes", "blizzard"]
   },
   {
     "id": 26,
@@ -257,7 +407,13 @@
     "downloadLink": "https://www.ea.com/games/battlefield/battlefield-2042",
     "description": "Battlefield 2042 is a large-scale, multiplayer-focused first-person shooter developed by **DICE**. The game is set in a near-future world where global conflict has erupted between the US and Russia, using specialized, non-patriated soldiers known as **'Specialists'**. The game's hallmark feature is its massive scale, supporting up to **128 players** on PC and current-gen consoles, battling across enormous, dynamic maps that feature severe weather events like tornadoes and sandstorms. The core gameplay focuses on combined arms warfare, allowing players to utilize a wide array of vehicles, including tanks, jets, and helicopters, alongside infantry combat. The game features various modes, including the massive Conquest and Breakthrough, as well as the unique **Portal** mode, which allows players to create custom games using content from past Battlefield titles. Despite a rocky start, continuous updates have significantly improved the game, making it a quintessential large-scale multiplayer war experience.",
     "ratings": "3.9",
-    "developer": "DICE"
+    "developer": "DICE",
+    "releaseYear": "2021",
+    "platforms": ["PC", "PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "size": "100 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["fps", "multiplayer", "large-scale", "vehicles", "portal", "future-war", "128-players"]
   },
   {
     "id": 27,
@@ -267,7 +423,13 @@
     "downloadLink": "https://www.supergiantgames.com/games/hades/",
     "description": "Hades is an action role-playing roguelike game developed by **Supergiant Games**. Players control **Zagreus**, the son of Hades, as he repeatedly attempts to escape from the Underworld to reach Mount Olympus. Each 'run' through the dungeons is procedurally generated, ensuring a fresh challenge every time, and upon death, Zagreus returns to the House of Hades to try again. The core gameplay is defined by its fast, fluid, and highly satisfying combat, utilizing various weapons and boons (power-ups) granted by the Greek gods of Olympus. Hades is celebrated not only for its tight gameplay but also for its exceptional storytelling, which unfolds in a persistent narrative across all the player's runs. The game features a charming cast of fully-voiced characters, beautiful hand-painted art, and an acclaimed original score. Its unique blend of addictive roguelike mechanics and a compelling, character-driven story has earned it widespread critical acclaim.",
     "ratings": "4.8",
-    "developer": "Supergiant Games"
+    "developer": "Supergiant Games",
+    "releaseYear": "2020",
+    "platforms": ["PC", "PS5", "PS4", "Xbox", "Switch"],
+    "size": "15 GB",
+    "mode": "Single Player",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["roguelike", "action", "greek-myth", "story", "combat", "boons", "supergiant"]
   },
   {
     "id": 28,
@@ -277,7 +439,13 @@
     "downloadLink": "https://store.steampowered.com/app/4000/Garrys_Mod/",
     "description": "Garry's Mod, often shortened to **GMod**, is a sandbox physics game developed by **Facepunch Studios** and originally a mod for Valve's Source engine. Unlike traditional games, GMod provides players with no set goals; it is essentially a physics playground and a toolkit for creativity. Players are given access to a wide array of tools to manipulate objects, characters, and physics within the game world. The true magic of GMod lies in its massive community and the plethora of user-created content and game modes, such as the popular **Trouble in Terrorist Town (TTT), Prop Hunt, and DarkRP**. Players can construct anything from elaborate machines and contraptions to custom maps and cinematic scenes. Its reliance on community mods and the limitless creative freedom it offers has made it one of the most long-lasting and diverse multiplayer experiences on PC, essentially being a digital canvas for experimentation and fun.",
     "ratings": "4.6",
-    "developer": "Facepunch Studios"
+    "developer": "Facepunch Studios",
+    "releaseYear": "2006",
+    "platforms": ["PC"],
+    "size": "10 GB",
+    "mode": "Multiplayer + Single Player",
+    "ageRating": "Mature 17+ (ESRB)",
+    "tags": ["sandbox", "physics", "mods", "community", "creative", "source-engine", "fun"]
   },
   {
     "id": 29,
@@ -287,7 +455,13 @@
     "downloadLink": "https://www.stardewvalley.net/",
     "description": "Stardew Valley is a charming, open-ended country-life RPG developed entirely by **Eric 'ConcernedApe' Barone**. The game begins with the player inheriting their grandfather's rundown farm plot in the titular Stardew Valley. The core gameplay loop involves **farming, raising livestock, crafting, mining, fishing, and socializing** with the various unique residents of Pelican Town. Players must work to restore the farm and the dilapidated Community Center, which acts as the game's main goal. The game is beloved for its relaxing pace, deep progression systems, and incredibly cozy atmosphere, providing a perfect escape from reality. It features a robust crafting system, seasonal events, a mining system with combat, and the option to marry one of the twelve eligible villagers. Stardew Valley is widely celebrated for its warm pixel-art style, its wealth of content, and the freedom it gives players to live their perfect fantasy farm life.",
     "ratings": "4.7",
-    "developer": "ConcernedApe"
+    "developer": "ConcernedApe",
+    "releaseYear": "2016",
+    "platforms": ["PC", "PS4", "Xbox One", "Switch", "Mobile"],
+    "size": "1 GB",
+    "mode": "Single + Local Co-op",
+    "ageRating": "Everyone 10+ (ESRB)",
+    "tags": ["farming", "simulation", "pixel-art", "relaxing", "cozy", "rpg", "community"]
   },
   {
     "id": 30,
@@ -297,7 +471,13 @@
     "downloadLink": "https://innersloth.com/among-us-pc-mobile-download/",
     "description": "Among Us is a highly popular online multiplayer social deduction game developed by **Innersloth**. The game is set in a space-themed environment where players are divided into two roles: most are **'Crewmates'**, who must complete simple tasks around the map to win, and a few are **'Impostors'**, whose goal is to secretly sabotage the ship and kill the Crewmates without being identified. The core mechanic revolves around emergency meetings, where players must use their social skills, logic, and deception to debate who they suspect the Impostor is and vote to eject them from the ship. The game became a massive cultural phenomenon due to its reliance on player interaction, bluffing, and emergent paranoia, making it an ideal game for streaming and group play. Its simple, colorful art style contrasts perfectly with the intense psychological gameplay, offering a unique and endlessly replayable party experience.",
     "ratings": "4.3",
-    "developer": "Innersloth"
+    "developer": "Innersloth",
+    "releaseYear": "2018",
+    "platforms": ["PC", "Mobile", "PS5", "PS4", "Xbox", "Switch"],
+    "size": "1 GB",
+    "mode": "Online Multiplayer + Local",
+    "ageRating": "Everyone 10+ (ESRB)",
+    "tags": ["social-deduction", "party", "impostor", "multiplayer", "bluffing", "fun", "streaming"]
   },
   {
     "id": 31,
@@ -307,6 +487,12 @@
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
     "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps. **PlayerUnknown's Battlegrounds (PUBG)** is one of the foundational games of the Battle Royale genre, popularizing the 'last man standing' format where 100 players parachute onto an island and scavenge for weapons, armor, and gear. The objective is to be the last player or team alive, forcing players into increasingly tight combat areas by an ever-shrinking blue zone. Developed by **Krafton**, the game is known for its relatively realistic gun physics and its emphasis on tactical positioning and vehicle strategy over arcade action. The mobile version, in particular, brought the intense survival experience to a massive global audience, consistently updating with new maps, game modes, and seasonal content to keep the high-stakes, action-packed gameplay fresh and engaging. This game demands both sharp reflexes and a keen strategic mind to navigate the chaos and secure the coveted 'Chicken Dinner'.",
     "ratings": "4.5",
-    "developer": "Krafton"
+    "developer": "Krafton",
+    "releaseYear": "2017",
+    "platforms": ["PC", "PS5", "PS4", "Xbox", "Mobile"],
+    "size": "40 GB",
+    "mode": "Online Multiplayer Only",
+    "ageRating": "Teen (ESRB)",
+    "tags": ["battle-royale", "fps", "survival", "realistic", "chicken-dinner", "vehicles", "scavenging"]
   }
 ]

@@ -8,7 +8,7 @@ const AboutgameHub = () => {
       animate={{ scaleY: 1 }}
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
-    <div className="min-h-screen bg-base-300 text-white py-12 px-6 lg:px-20">
+    <div className="min-h-screen bg-base-300 text-white py-12 px-6 lg:px-20  rounded-2xl">
       {/* Hero Section */}
       <title>About Gamehub</title>
       <section className="text-center mb-12">
