@@ -86,7 +86,7 @@ const ClientReviews = () => {
   return (
     <div className="px-4 mx-auto py-12 overflow-hidden">
   <div className="text-center mb-8">
-    <h2 className="text-3xl font-bold text-white mb-2">What Our Clients Say</h2>
+    <h2 className="text-4xl lg:text-5xl font-bold text-white mb-2">What Our Clients Say</h2>
     <p className="text-gray-300 max-w-2xl mx-auto">
       Real experiences from gamers who trust GameGub and give us their feedback.
     </p>

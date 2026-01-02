@@ -51,26 +51,28 @@ const Navbar = () => {
       });
   };
 
-  const navLinks = [
+  const navLinks = (
     <>
-      <li>
+      <li key="home">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
+      <li key="allgames">
         <NavLink to="/allgames">All Games</NavLink>
       </li>
-      {
-        user ? <>
-          <li>
-        <NavLink to="/aboutgameHub">About GameHub</NavLink>
-      </li>
-      <li>
-        <NavLink to="/contact">Contact</NavLink>
-      </li>
-        </> : " "
-      }
-    </>,
-  ];
+      {user ? (
+        <>
+          <li key="about">
+            <NavLink to="/aboutgameHub">About GameHub</NavLink>
+          </li>
+          <li key="contact">
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </>
+      ) : (
+        " "
+      )}
+    </>
+  );
   return (
     <div className="navbar bg-base-300 shadow-sm sm:px-10">
       <div className="navbar-start">

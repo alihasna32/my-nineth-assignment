@@ -28,12 +28,11 @@ const AllGames = () => {
     "Sports",
     "Gacha",
     "Life Simulation",
-    "Soccer Simulation",
+    "Soccer",
     "Roguelike",
     "Sandbox",
     "Party",
     "FPS",
-  
   ];
 
   const filteredAndSortedData = useMemo(() => {
@@ -69,16 +68,20 @@ const AllGames = () => {
         <div className="flex flex-wrap gap-4 justify-center mb-10">
           {/* Category Dropdown */}
           <div className="dropdown dropdown-bottom">
-            <div tabIndex={0} role="button" className="btn bg-base-300 border-gray-600 hover:bg-base-100">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn bg-base-300 border-gray-600 hover:bg-base-100"
+            >
               {selectedCategory === "All" ? "All Categories" : selectedCategory}
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content menu p-3 shadow-lg bg-base-300 rounded-box w-64 max-h-96 overflow-y-auto z-50 border border-gray-700"
+              className="dropdown-content menu p-3 shadow-lg bg-base-300 rounded-box w-[300px] max-h-96 overflow-y-scroll z-50 border border-gray-700"
             >
               <li
                 onClick={() => setSelectedCategory("All")}
-                className="cursor-pointer hover:bg-base-100 p-2 rounded-md"
+                className="cursor-pointer hover:bg-base-100 rounded-md"
               >
                 <a>All Categories</a>
               </li>
@@ -86,7 +89,7 @@ const AllGames = () => {
                 <li
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className="cursor-pointer hover:bg-base-100 p-2 rounded-md"
+                  className="cursor-pointer hover:bg-base-100  rounded-md"
                 >
                   <a>{cat}</a>
                 </li>
@@ -96,20 +99,38 @@ const AllGames = () => {
 
           {/* Sort Dropdown */}
           <div className="dropdown dropdown-bottom">
-            <div tabIndex={0} role="button" className="btn bg-base-300 border-gray-600 hover:bg-base-100">
-              Sort By Rating {sortOrder === "high" ? "High to Low" : sortOrder === "low" ? "Low to High" : ""}
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn bg-base-300 border-gray-600 hover:bg-base-100"
+            >
+              Sort By Rating{" "}
+              {sortOrder === "high"
+                ? "High to Low"
+                : sortOrder === "low"
+                ? "Low to High"
+                : ""}
             </div>
             <ul
               tabIndex={0}
               className="dropdown-content menu p-3 shadow-lg bg-base-300 rounded-box w-56 z-50 border border-gray-700"
             >
-              <li onClick={() => setSortOrder("none")} className="hover:bg-base-100 p-2 rounded-md cursor-pointer">
+              <li
+                onClick={() => setSortOrder("none")}
+                className="hover:bg-base-100 p-2 rounded-md cursor-pointer"
+              >
                 <a>Default</a>
               </li>
-              <li onClick={() => setSortOrder("high")} className="hover:bg-base-100 p-2 rounded-md cursor-pointer">
+              <li
+                onClick={() => setSortOrder("high")}
+                className="hover:bg-base-100 p-2 rounded-md cursor-pointer"
+              >
                 <a>Highest Rated First</a>
               </li>
-              <li onClick={() => setSortOrder("low")} className="hover:bg-base-100 p-2 rounded-md cursor-pointer">
+              <li
+                onClick={() => setSortOrder("low")}
+                className="hover:bg-base-100 p-2 rounded-md cursor-pointer"
+              >
                 <a>Lowest Rated First</a>
               </li>
             </ul>

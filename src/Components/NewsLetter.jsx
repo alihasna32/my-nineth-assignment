@@ -16,11 +16,11 @@ const Newsletter = () => {
   return (
     <div className="px-4 mb-11">
         <section className="bg-linear-to-r from-[#7a590a] to-[#8166213b] py-12 px-6 sm:px-14 rounded-xl">
-      <div className="max-w-2xl mx-auto text-center px-4">
-        <h2 className="text-3xl font-bold mb-2 ">
+      <div className="max-w-3xl mx-auto text-center px-4">
+        <h2 className="text-2xl sm:text-3xl  lg:text-5xl font-bold mb-2 ">
           Subscribe to Our Newsletter
         </h2>
-        <p className=" mb-6">
+        <p className="my-6">
           Get the latest updates, news, and offers directly in your inbox.
         </p>
 
